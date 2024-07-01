@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7d579b40-8ddd-46d1-8c6a-0b61d40d27a5" name="Changes" comment="jk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guess.py" beforeDir="false" afterPath="$PROJECT_DIR$/guess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language_survey.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_survey.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -107,7 +111,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719853406746</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="jk">
+      <option name="closed" value="true" />
+      <created>1719868293702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719868293702</updated>
+    </task>
+    <task id="LOCAL-00003" summary="jk">
+      <option name="closed" value="true" />
+      <created>1719868415167</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719868415167</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

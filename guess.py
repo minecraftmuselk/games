@@ -1,11 +1,15 @@
 secret_word = 'illikkal'
 dashes = '-' * len(secret_word)
-print('what')
+
 
 def update_dashes():
-    empty = ''
+    result = ""
     for i in range(len(secret_word)):
-        print('placer')
+        if secret_word[i] == guess:
+            result += guess
+        else:
+            result += dashes[i]
+    return result
 
 
 def get_guess():
