@@ -1,5 +1,5 @@
 import pytest
-from guess_the_word import AnonymousSurvey
+from guess import AnonymousSurvey
 
 
 @pytest.fixture
