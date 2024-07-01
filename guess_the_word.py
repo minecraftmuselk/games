@@ -1,6 +1,6 @@
 secret_word = 'illikkal'
 dashes = '-' * len(secret_word)
-
+print('what')
 
 def update_dashes():
     empty = ''
