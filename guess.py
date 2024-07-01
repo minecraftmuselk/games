@@ -5,7 +5,7 @@ print('what')
 def update_dashes():
     empty = ''
     for i in range(len(secret_word)):
-        print('placer')
+        print('placer + hello')
 
 
 def get_guess():
