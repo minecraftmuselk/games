@@ -3,7 +3,7 @@ dashes = '-' * len(secret_word)
 
 
 def update_dashes():
-    result = ""
+    result = " "
     for i in range(len(secret_word)):
         if secret_word[i] == guess:
             result += guess
