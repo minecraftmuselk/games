@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d579b40-8ddd-46d1-8c6a-0b61d40d27a5" name="Changes" comment="Adding a test file of testing the code from Chatgpt">
+    <list default="true" id="7d579b40-8ddd-46d1-8c6a-0b61d40d27a5" name="Changes" comment="Coded main part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guess.py" beforeDir="false" afterPath="$PROJECT_DIR$/guess.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,22 +51,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.guess.executor": "Run",
-    "Python.language_survey.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.name_function.executor": "Run",
-    "Python.names.executor": "Run",
-    "Python.survey.executor": "Run",
-    "Python.test_guess.executor": "Run",
-    "Python.test_survey.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/finan/PycharmProjects",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.guess.executor&quot;: &quot;Run&quot;,
+    &quot;Python.language_survey.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.name_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.names.executor&quot;: &quot;Run&quot;,
+    &quot;Python.survey.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_guess.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_survey.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/finan/PycharmProjects&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="guess" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="studying" />
@@ -172,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719890978273</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Coded main part">
+      <option name="closed" value="true" />
+      <created>1719892146818</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719892146818</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jk" />
     <MESSAGE value="Adding a test file of testing the code from Chatgpt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a test file of testing the code from Chatgpt" />
+    <MESSAGE value="Coded main part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coded main part" />
   </component>
 </project>
