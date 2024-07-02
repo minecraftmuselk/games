@@ -1,5 +1,3 @@
-import random
-
 def update_word(secret_word, dashes, guess):
     result = ""
     for i in range(len(secret_word)):
@@ -9,18 +7,16 @@ def update_word(secret_word, dashes, guess):
             result += dashes[i]
     return result
 
-def choose_random_word(word_list):
-    return random.choice(word_list)
 
 def display_game_state(dashes, incorrect_guesses):
     print(f"Current word: {dashes}")
     print(f"Incorrect guesses: {incorrect_guesses}")
     print(f"Remaining attempts: {10 - len(incorrect_guesses)}")
 
+
 def main():
-    word_list = ["python", "java", "swift", "javascript", "kotlin"]
-    secret_word = choose_random_word(word_list)
-    dashes = "-" * len(secret_word)
+    secret_word = 'illikkal'
+    dashes = '-' * len(secret_word)
     incorrect_guesses = []
     correct_guesses = set()
 
@@ -49,5 +45,6 @@ def main():
         if len(incorrect_guesses) >= 10:
             print(f"Sorry, you've lost! The word was: {secret_word}")
             break
+
 
 main()

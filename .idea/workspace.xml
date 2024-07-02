@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d579b40-8ddd-46d1-8c6a-0b61d40d27a5" name="Changes" comment="jk">
-      <change afterPath="$PROJECT_DIR$/test_guess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/studying.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studying.iml" afterDir="false" />
+    <list default="true" id="7d579b40-8ddd-46d1-8c6a-0b61d40d27a5" name="Changes" comment="Adding a test file of testing the code from Chatgpt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guess.py" beforeDir="false" afterPath="$PROJECT_DIR$/guess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_guess.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_guess.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,11 +152,20 @@
       <option name="project" value="LOCAL" />
       <updated>1719870150487</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding a test file of testing the code from Chatgpt">
+      <option name="closed" value="true" />
+      <created>1719878334721</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719878334721</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jk" />
-    <option name="LAST_COMMIT_MESSAGE" value="jk" />
+    <MESSAGE value="Adding a test file of testing the code from Chatgpt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a test file of testing the code from Chatgpt" />
   </component>
 </project>
