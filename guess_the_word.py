@@ -1,3 +1,6 @@
+import random
+
+
 def update_dashes(secret_word, dashes, guess):
     result = ""
     for i in range(len(secret_word)):
@@ -8,22 +11,23 @@ def update_dashes(secret_word, dashes, guess):
     return result
 
 
-def main():
-    secret_word = 'illikkal'
+def get_guess():
+    word_list = ["python", "java", "swift", "javascript", "kotlin"]
+    secret_word = random.choice(word_list)
     dashes = '-' * len(secret_word)
-    guesses_left = 0
+    guesses_left = 10
 
     while True:
         print(dashes)
+        print(f"{guesses_left} incorrect guesses left.")
         guess = input('Guess: ')
 
         if guess in secret_word:
             print('That letter is in the secret word!')
             dashes = update_dashes(secret_word, dashes, guess)
-            guesses_left += 1
         elif guess not in secret_word:
             print('That letter is not in the secret word!')
-            guesses_left += 1
+            guesses_left -= 1
 
             if guess.isupper():
                 print('Your guess must be a lowercase letter!')
@@ -36,9 +40,13 @@ def main():
             print(f"Congratulations! You've guessed the word: {secret_word}")
             break
 
-        if guesses >= 10:
-            print(f"Sorry, you've lost! The word was: {secret_word}")
+        if guesses_left == 0:
+            print(f"You lose! The word was: {secret_word}")
             break
+
+
+def main():
+    get_guess()
 
 
 main()
