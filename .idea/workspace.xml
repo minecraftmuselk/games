@@ -4,9 +4,572 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d579b40-8ddd-46d1-8c6a-0b61d40d27a5" name="Changes" comment="created folder for alien_invasion.py">
+    <list default="true" id="7d579b40-8ddd-46d1-8c6a-0b61d40d27a5" name="Changes" comment="created class to represent game">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/studying.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Games.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/SDL2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/SDL2_image.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/SDL2_mixer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/SDL2_ttf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/__init__.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/__pyinstaller/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/__pyinstaller/hook-pygame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_camera.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_camera_opencv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_camera_vidcapture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_common.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_freetype.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sdl2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sdl2/__init__.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sdl2/audio.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sdl2/audio.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sdl2/controller.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sdl2/controller.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sdl2/mixer.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sdl2/sdl2.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sdl2/sdl2.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sdl2/touch.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sdl2/touch.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sdl2/video.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sdl2/video.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/_sprite.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/base.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/base.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/bufferproxy.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/bufferproxy.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/camera.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/camera.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/color.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/color.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/colordict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/constants.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/constants.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/cursors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/cursors.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/display.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/display.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/LGPL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedInputOutput1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedInputOutput11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedInputOutput2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedInputOutput21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedInputOutput3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedInputOutput31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedInputOutput4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedInputOutput41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedInputOutput5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedInputOutput51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputAlpha1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputAlpha11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputAlpha2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputAlpha21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputAlpha3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputAlpha31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputProcess1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputProcess11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputProcess2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputProcess21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputProcess3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputProcess31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputProcess4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputProcess41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputProcess5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputProcess51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputProcess6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/AdvancedOutputProcess61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/Bagic-INPUT-resultscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/Bagic-INPUT-resultscreen1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/Bagic-INPUT-sourcecode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/Bagic-INPUT-sourcecode1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/Bagic-PROCESS-resultscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/Bagic-PROCESS-resultscreen1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/Bagic-PROCESS-sourcecode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/Bagic-PROCESS-sourcecode1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/Bagic-ouput-result-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/Bagic-ouput-result-screen1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/Basic-ouput-sourcecode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/Basic-ouput-sourcecode1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/angle_to.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/camera_average.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/camera_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/camera_green.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/camera_hsv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/camera_mask.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/camera_rgb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/camera_thresh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/camera_thresholded.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/camera_yuv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/chimpshot.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/draw_module_example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/intro_ball.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/intro_blade.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/intro_freedom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/introduction-Battleship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/introduction-Battleship1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/introduction-PuyoPuyo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/introduction-PuyoPuyo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/introduction-TPS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/introduction-TPS1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/joystick_calls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/pygame_lofi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/pygame_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/pygame_powered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/pygame_powered_lowres.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/pygame_tiny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/surfarray_allblack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/surfarray_flipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/surfarray_redimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/surfarray_rgbarray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/surfarray_scaledown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/surfarray_scaleup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/surfarray_soften.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/surfarray_striped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/surfarray_xfade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/tom_basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/tom_event-flowchart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/tom_formulae.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_images/tom_radians.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/c_api.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/filepaths.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/index.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/logos.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/bufferproxy.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/camera.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/cdrom.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/color.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/color_list.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/cursors.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/display.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/draw.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/event.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/examples.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/fastevent.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/font.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/freetype.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/gfxdraw.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/image.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/joystick.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/key.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/locals.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/mask.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/math.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/midi.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/mixer.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/mouse.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/music.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/overlay.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/pixelarray.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/pixelcopy.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/pygame.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/rect.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/scrap.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/sdl2_controller.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/sdl2_video.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/sndarray.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/sprite.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/surface.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/surfarray.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/tests.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/time.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/touch.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_sources/ref/transform.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/doctools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/documentation_options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/jquery-3.5.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/language_data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/legacy_logos.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/pygame.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/pygame.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/pygame_lofi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/pygame_lofi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/pygame_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/pygame_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/pygame_powered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/pygame_powered.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/pygame_powered_lowres.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/pygame_tiny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/pygments.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/searchtools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/underscore-1.13.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/_static/underscore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api/bufferproxy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api/color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api/display.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api/event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api/freetype.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api/mixer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api/rect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api/rwobject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api/slots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api/surface.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api/surflock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/c_api/version.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/filepaths.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/genindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/logos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/py-modindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/bufferproxy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/camera.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/cdrom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/color_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/cursors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/display.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/draw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/fastevent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/font.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/freetype.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/gfxdraw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/joystick.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/locals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/mask.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/math.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/midi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/mixer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/mouse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/music.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/overlay.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/pixelarray.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/pixelcopy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/pygame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/rect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/scrap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/sdl2_controller.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/sdl2_video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/sndarray.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/sprite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/surface.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/surfarray.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/touch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/ref/transform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/searchindex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/CameraIntro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/ChimpLineByLine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/DisplayModes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/ImportInit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/MakeGames.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/MoveIt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/PygameIntro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/SpriteIntro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/SurfarrayIntro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/chimp.py.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/newbieguide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/tom_games2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/tom_games3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/tom_games4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/tom_games5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/docs/generated/tut/tom_games6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/draw.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/draw.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/draw_py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/event.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/event.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/aacircle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/aliens.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/arraydemo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/audiocapture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/blend_fill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/blit_blends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/camera.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/chimp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/cursors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/BGR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/alien1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/alien1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/alien1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/alien2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/alien2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/alien3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/alien3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/arraydemo.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/asprite.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/background.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/black.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/blue.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/blue.mpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/bomb.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/boom.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/brick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/car_door.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/chimp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/city.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/crimson.pnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/cursor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/danger.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/explosion1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/fist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/green.pcx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/grey.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/house_lo.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/house_lo.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/house_lo.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/laplacian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/liquid.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/midikeys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/player1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/punch.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/purple.xpm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/red.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/sans.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/scarlet.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/secosmic_lo.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/shot.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/static.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/teal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/turquoise.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/whiff.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/data/yellow.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/dropevent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/eventlist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/font_viewer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/fonty.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/freetype_misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/glcube.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/go_over_there.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/grid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/headless_no_windows_needed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/joystick.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/liquid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/mask.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/midi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/moveit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/music_drop_fade.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/pixelarray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/playmus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/resizing_new.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/scaletest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/scrap_clipboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/scroll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/setmodescale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/sound.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/sound_array_demos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/sprite_texture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/stars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/testsprite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/textinput.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/vgrade.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/examples/video.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/fastevent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/fastevent.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/font.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/font.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/freesansbold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/freetype.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/freetype.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/freetype.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/ftfont.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/gfxdraw.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/gfxdraw.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/image.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/image.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/imageext.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/joystick.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/joystick.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/key.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/key.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/libjpeg-9.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/libmodplug-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/libogg-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/libopus-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/libopusfile-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/libpng16-16.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/libtiff-5.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/libwebp-7.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/locals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/locals.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/macosx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/mask.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/mask.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/math.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/math.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/midi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/midi.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/mixer.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/mixer.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/mixer_music.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/mixer_music.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/mouse.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/mouse.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/newbuffer.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/pixelarray.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/pixelarray.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/pixelcopy.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/pixelcopy.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/pkgdata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/portmidi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/py.typed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/pygame.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/pygame_icon.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/pygame_icon.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/pygame_icon_mac.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/pypm.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/rect.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/rect.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/rwobject.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/rwobject.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/scrap.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/scrap.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/sndarray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/sndarray.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/sprite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/sprite.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/surface.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/surface.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/surfarray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/surfarray.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/surflock.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/surflock.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/sysfont.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/base_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/blit_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/bufferproxy_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/camera_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/color_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/constants_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/controller_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/cursors_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/display_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/docs_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/draw_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/event_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/fixtures/fonts/A_PyGameMono-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/fixtures/fonts/PlayfairDisplaySemibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/fixtures/fonts/PyGameMono-18-100dpi.bdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/fixtures/fonts/PyGameMono-18-75dpi.bdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/fixtures/fonts/PyGameMono-8.bdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/fixtures/fonts/PyGameMono.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/fixtures/fonts/test_fixed.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/fixtures/fonts/test_sans.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/fixtures/fonts/u13079_PyGameMono-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/fixtures/xbm_cursors/white_sizing.xbm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/fixtures/xbm_cursors/white_sizing_mask.xbm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/font_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/freetype_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/freetype_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/ftfont_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/ftfont_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/gfxdraw_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/image__save_gl_surface_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/image_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/image_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/imageext_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/imageext_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/joystick_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/key_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/locals_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/mask_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/math_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/midi_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/mixer_music_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/mixer_music_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/mixer_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/mixer_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/mouse_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/pixelarray_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/pixelcopy_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/rect_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/all_ok/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/all_ok/fake_2_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/all_ok/fake_3_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/all_ok/fake_4_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/all_ok/fake_5_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/all_ok/fake_6_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/all_ok/no_assertions__ret_code_of_1__test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/all_ok/zero_tests_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/everything/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/everything/fake_2_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/everything/incomplete_todo_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/everything/magic_tag_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/everything/sleep_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/exclude/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/exclude/fake_2_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/exclude/invisible_tag_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/exclude/magic_tag_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/failures1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/failures1/fake_2_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/failures1/fake_3_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/failures1/fake_4_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/incomplete/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/incomplete/fake_2_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/incomplete/fake_3_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/incomplete_todo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/incomplete_todo/fake_2_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/incomplete_todo/fake_3_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/infinite_loop/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/infinite_loop/fake_1_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/infinite_loop/fake_2_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/print_stderr/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/print_stderr/fake_2_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/print_stderr/fake_3_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/print_stderr/fake_4_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/print_stdout/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/print_stdout/fake_2_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/print_stdout/fake_3_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/print_stdout/fake_4_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/run_tests__test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/timeout/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/timeout/fake_2_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/run_tests__tests/timeout/sleep_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/rwobject_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/scrap_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/scrap_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/sndarray_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/sndarray_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/sprite_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/surface_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/surfarray_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/surfarray_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/surflock_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/sysfont_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/test_utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/test_utils/arrinter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/test_utils/async_sub.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/test_utils/buftools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/test_utils/endian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/test_utils/png.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/test_utils/run_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/test_utils/test_machinery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/test_utils/test_runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/threads_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/time_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/touch_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/transform_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/version_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/tests/video_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/threads/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/time.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/time.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/transform.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/transform.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/version.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/pygame/zlib1.dll" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +615,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.alien_invasion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.guess.executor&quot;: &quot;Run&quot;,
-    &quot;Python.language_survey.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.name_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.names.executor&quot;: &quot;Run&quot;,
-    &quot;Python.survey.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_guess.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_survey.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/finan/PycharmProjects&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.alien_invasion.executor": "Run",
+    "Python.guess.executor": "Run",
+    "Python.language_survey.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.name_function.executor": "Run",
+    "Python.names.executor": "Run",
+    "Python.survey.executor": "Run",
+    "Python.test_guess.executor": "Run",
+    "Python.test_survey.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/finan/PycharmProjects/AlienInvasion",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\finan\PycharmProjects\games\alien_invasion" />
@@ -186,7 +750,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720027574567</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="created class to represent game">
+      <option name="closed" value="true" />
+      <created>1720057573280</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720057573280</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,12 +785,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="jk" />
     <MESSAGE value="Adding a test file of testing the code from Chatgpt" />
     <MESSAGE value="Coded main part" />
     <MESSAGE value="Created alien_invasion game file" />
     <MESSAGE value="Edited readme file" />
     <MESSAGE value="created folder for alien_invasion.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="created folder for alien_invasion.py" />
+    <MESSAGE value="created class to represent game" />
+    <option name="LAST_COMMIT_MESSAGE" value="created class to represent game" />
   </component>
 </project>
